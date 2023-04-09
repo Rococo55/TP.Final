@@ -1,0 +1,153 @@
+body{
+    background-color: #F7F7F7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 5%;
+    margin: 2vh 3vw;
+}
+nav{
+    display: flex;
+    gap: 4vh;
+    margin: 2vh 3vw;
+}
+a{
+    color: rgb(63, 63, 211);
+}
+.iniciar-sesion{
+    background-color: transparent;
+    border: gray 1px solid;
+    border-radius: 14px;
+    height: 30vh 30vw;
+}
+.registrarse{
+    background-color: transparent;
+    border: gray 1px solid;
+    border-radius: 14px;
+    height: 30vh 30vw;
+}
+.seccion1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-principal img{
+    display: flex;
+    width: 75%;
+    height: 50%;
+    border-radius: 14px;
+}
+.img-principal p{
+    font-size: larger;
+    justify-content: center;
+    color: rgb(51, 48, 48);
+    position:absolute;
+    top: 29%;
+    left: 15%;
+}
+.caja{
+    display: flex;
+    background-color: rgb(68, 68, 204);
+    width: 80%;
+    height: 50%;
+    border-radius: 14px;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 3vw;
+}
+.caja h1{
+    color: #F7F7F7;
+}
+.form1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 5vh 3vw;
+    gap: 3%;
+}
+.form2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin: 8vh 3vw;
+}
+input{
+    display: flex;
+    height: 2vw;
+    border: #F7F7F7;
+    border-radius: 14px;
+    text-align: center;
+}
+.btn-cotizar{
+    background-color: #F7F7F7;
+    border: gray 1px solid;
+    border-radius: 14px;
+    height: 3vw;
+    width: 8vw;
+    font-size: 90%;
+    color: rgb(68, 68, 204);
+    margin: 1vh 3vw;
+}
+.seccion2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 2vh 3vw;
+}
+.caja1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(68, 68, 204);
+    border-radius: 14px;
+    width: 33%;
+    height: 30vh;
+}
+.seguro-de-viaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 3vw;
+}
+.seguro-de-viaje img{
+    width: 50%;
+    height: 80%;
+}
+.destinos-mas-comprados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 3vw;
+}
+.destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.destinos-mas-comprados img{
+    width: 50%;
+    height: 50%;
+}
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 3vw;
+}
+i{
+    width: 50vw;
+    height: 100vh;
+}
+h2{
+    color: #F7F7F7;
+    margin: 1vh 1vw;
+    text-align: center;
+    font-size: 17px;
+}
